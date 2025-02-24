@@ -1,0 +1,30 @@
+A51 MACRO ASSEMBLER  ADDREG                                                               02/12/2025 12:24:36 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.00b
+OBJECT MODULE PLACED IN addreg.OBJ
+ASSEMBLER INVOKED BY: C:\Keil\C51\BIN\A51.EXE addreg.asm SET(SMALL) DEBUG EP
+
+LOC  OBJ            LINE     SOURCE
+
+0000                   1     org 0000h
+0000 7920              2     mov r1,#20h
+0002 7A10              3     mov r2,#10h
+0004 E9                4     mov a,r1
+0005 2A                5     add a,r2
+0006 F530              6     mov 30h,a
+                       7     end
+A51 MACRO ASSEMBLER  ADDREG                                                               02/12/2025 12:24:36 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)

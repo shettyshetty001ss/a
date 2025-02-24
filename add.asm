@@ -1,0 +1,24 @@
+ORG 0000H
+MOV R0,#20h
+MOV R1,#30h
+MOV R2,#05h
+
+back:MOV A,@R0
+MOV @R1,A
+
+INC R0
+INC R1
+DJNZ R2, back
+END						 ORG 0000H
+MOV R0,#20h
+MOV R1,#30h
+MOV R2,#05h
+
+back:MOV A,@R0
+MOV @R1,A
+
+INC R0
+INC R1
+
+DJN2 R2,back
+END

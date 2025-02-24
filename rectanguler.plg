@@ -1,0 +1,95 @@
+<html>
+<body>
+<pre>
+<h1>µVision3 Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Student\Documents\rectanguler.uv2
+Project File Date:  <unknown>
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling rectanguler.c...
+rectanguler.c(1): warning C318: can't open file 'reg 51.h'
+RECTANGULER.C(3): error C158: '_delay': function contains unnamed parameter
+RECTANGULER.C(4): error C132: 'main': not in formal parameter list
+RECTANGULER.C(4): error C141: syntax error near '{'
+RECTANGULER.C(5): error C136: 'p0': 'void' on variable
+RECTANGULER.C(5): error C244: 'p0': can't initialize, bad type or class
+RECTANGULER.C(5): error C136: 'p0': 'void' on variable
+RECTANGULER.C(5): error C132: 'p0': not in formal parameter list
+RECTANGULER.C(6): error C141: syntax error near 'while'
+RECTANGULER.C(6): error C141: syntax error near '1'
+RECTANGULER.C(8): error C141: syntax error near '250'
+RECTANGULER.C(10): error C141: syntax error near '1000'
+RECTANGULER.C(11): error C279: 'p3': multiple initialization
+RECTANGULER.C(12): error C141: syntax error near '}'
+RECTANGULER.C(15): error C231: 'delay': redefinition
+RECTANGULER.C(19): error C231: 'delay': redefinition
+Target not created
+Build target 'Target 1'
+compiling rectanguler.c...
+RECTANGULER.C(3): error C158: '_delay': function contains unnamed parameter
+RECTANGULER.C(4): error C132: 'main': not in formal parameter list
+RECTANGULER.C(4): error C141: syntax error near '{'
+RECTANGULER.C(5): error C136: 'p0': 'void' on variable
+RECTANGULER.C(5): error C244: 'p0': can't initialize, bad type or class
+RECTANGULER.C(5): error C136: 'p0': 'void' on variable
+RECTANGULER.C(5): error C132: 'p0': not in formal parameter list
+RECTANGULER.C(6): error C141: syntax error near 'while'
+RECTANGULER.C(6): error C141: syntax error near '1'
+RECTANGULER.C(8): error C141: syntax error near '250'
+RECTANGULER.C(10): error C141: syntax error near '1000'
+RECTANGULER.C(11): error C279: 'p3': multiple initialization
+RECTANGULER.C(12): error C141: syntax error near '}'
+RECTANGULER.C(15): error C231: 'delay': redefinition
+RECTANGULER.C(19): error C231: 'delay': redefinition
+Target not created
+Build target 'Target 1'
+compiling rectanguler.c...
+RECTANGULER.C(3): error C158: '_delay': function contains unnamed parameter
+RECTANGULER.C(4): error C132: 'main': not in formal parameter list
+RECTANGULER.C(4): error C141: syntax error near '{'
+RECTANGULER.C(5): error C136: 'P0': 'void' on variable
+RECTANGULER.C(5): error C244: 'P0': can't initialize, bad type or class
+RECTANGULER.C(5): error C136: 'P0': 'void' on variable
+RECTANGULER.C(5): error C132: 'P0': not in formal parameter list
+RECTANGULER.C(6): error C141: syntax error near 'while'
+RECTANGULER.C(6): error C141: syntax error near '1'
+RECTANGULER.C(8): error C141: syntax error near '250'
+RECTANGULER.C(9): error C231: 'P3': redefinition
+RECTANGULER.C(9): error C231: 'P3': redefinition
+RECTANGULER.C(10): error C141: syntax error near '1000'
+RECTANGULER.C(11): error C279: 'P3': multiple initialization
+RECTANGULER.C(11): error C231: 'P3': redefinition
+RECTANGULER.C(11): error C231: 'P3': redefinition
+RECTANGULER.C(12): error C141: syntax error near '}'
+RECTANGULER.C(15): error C231: 'delay': redefinition
+RECTANGULER.C(19): error C231: 'delay': redefinition
+Target not created
+Build target 'Target 1'
+compiling rectanguler.c...
+RECTANGULER.C(3): error C158: '_delay': function contains unnamed parameter
+RECTANGULER.C(4): error C132: 'main': not in formal parameter list
+RECTANGULER.C(4): error C141: syntax error near '{'
+RECTANGULER.C(5): error C136: 'P0': 'void' on variable
+RECTANGULER.C(5): error C244: 'P0': can't initialize, bad type or class
+RECTANGULER.C(5): error C136: 'P0': 'void' on variable
+RECTANGULER.C(5): error C132: 'P0': not in formal parameter list
+RECTANGULER.C(6): error C141: syntax error near 'while'
+RECTANGULER.C(6): error C141: syntax error near '1'
+RECTANGULER.C(8): error C141: syntax error near '250'
+RECTANGULER.C(9): error C231: 'P3': redefinition
+RECTANGULER.C(9): error C231: 'P3': redefinition
+RECTANGULER.C(10): error C141: syntax error near '1000'
+RECTANGULER.C(11): error C279: 'P3': multiple initialization
+RECTANGULER.C(11): error C231: 'P3': redefinition
+RECTANGULER.C(11): error C231: 'P3': redefinition
+RECTANGULER.C(12): error C141: syntax error near '}'
+RECTANGULER.C(15): error C231: 'delay': redefinition
+RECTANGULER.C(19): error C231: 'delay': redefinition
+Target not created
+Build target 'Target 1'
+compiling rectanguler.c...
+linking...
+Program Size: data=9.0 xdata=0 code=72
+"rectanguler" - 0 Error(s), 0 Warning(s).

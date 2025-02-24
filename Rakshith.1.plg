@@ -1,0 +1,22 @@
+<html>
+<body>
+<pre>
+<h1>µVision3 Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Student\Documents\Rakshith.1.uv2
+Project File Date:  02/14/2025
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling add.asm...
+add.asm(12): error A9: SYNTAX ERROR
+Target not created
+Build target 'Target 1'
+assembling add.asm...
+add.asm(12): error A9: SYNTAX ERROR
+Target not created
+Build target 'Target 1'
+assembling add.asm...
+add.asm(12): error A9: SYNTAX ERROR
+assembling adddir.asm...
+Target not created

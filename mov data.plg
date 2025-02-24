@@ -1,0 +1,14 @@
+<html>
+<body>
+<pre>
+<h1>µVision3 Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Student\Documents\mov data.uv2
+Project File Date:  <unknown>
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling 301.asm...
+301.asm(5): error A38: NUMBER OF OPERANDS DOES NOT MATCH INSTRUCTION
+301.asm(5): error A9: SYNTAX ERROR
+Target not created

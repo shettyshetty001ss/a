@@ -1,0 +1,42 @@
+<html>
+                   <head>
+                                          <titel> dish  cod e .tag</titel>
+                    </head>
+                      <body  bgcolor=tomato>
+                                               <center><h1><u>dipartment of computre scince</u></h1></center>
+                                                 <h3><center><u>nram polytecnic college nitte-574110</h3></ceanter>
+                                                  <mark><i>lisht of  subjets</mark></i>
+                             <ol type=1 >
+                                            <li>egg  mathametics</li>
+                                                        <ul tye=sorkal>
+                                              <ul>matrix</ul>
+                                                <ul> mhats</ul>
+                               </ol>
+                                <ol type=2>
+                                            <li> fonndamentel of computer <li>
+                               </ol>
+                               <ol type=3>
+                                              <li>it skills lab</li>
+                                                          <ul type=sqver>
+                                                       <ul>html.tag</ul>
+                                                         <ul>img.tag</ul>
+                                                            <ui>java</ul>
+                                </ol>
+                                 <ol type=4 >
+                                                     <li>evs</li>
+                                 </ol>
+                                   <ol type=5>
+                                                      <li> fondamantal  elotronic elatrical engineeyaring</li>
+                                   </ol>
+                                    <ol type=6>
+                                                     <li> addict corss</li>
+                                                            <ul type=sorkal>
+                                                       <ul>yoga</ul>
+                                                      <ul>nss</ul>
+                                                      <ul>sports</ul>
+                                      </ol>
+                       </body>
+</html>
+                                                     
+                                                                  
+        

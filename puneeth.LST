@@ -1,0 +1,39 @@
+A51 MACRO ASSEMBLER  PUNEETH                                                              02/19/2025 12:46:02 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.00b
+OBJECT MODULE PLACED IN puneeth.OBJ
+ASSEMBLER INVOKED BY: C:\Keil\C51\BIN\A51.EXE puneeth.asm SET(SMALL) DEBUG EP
+
+LOC  OBJ            LINE     SOURCE
+
+0000                   1                ORG 0000H
+0000 908000            2                MOV DPTR,#8000H
+0003 7840              3                MOV R0,#40H
+0005 7905              4                MOV R1,#05H
+                       5     
+0007 E6                6                UP:MOV A,@R0
+0008 FA                7                MOV R2,A
+0009 E0                8                MOVX A,@DPTR
+000A F6                9                MOV @R0,A
+000B CA               10                XCH A,R2
+000C F0               11                MOVX @DPTR,A
+000D 08               12                INC R0
+000E A3               13                INC DPTR
+000F D9F6             14                DJNZ R1,UP
+                      15                END
+A51 MACRO ASSEMBLER  PUNEETH                                                              02/19/2025 12:46:02 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+UP . . . . . . . .  C ADDR   0007H   A   
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)

@@ -1,0 +1,15 @@
+	   ORG 0000H
+	   MOV DPTR,#8000H
+	   MOV R0,#40H
+	   MOV R1,#05H
+
+	   UP:MOV A,@R0
+	   MOV R2,A
+	   MOVX A,@DPTR
+	   MOV @R0,A
+	   XCH A,R2
+	   MOVX @DPTR,A
+	   INC R0
+	   INC DPTR
+	   DJNZ R1,UP
+	   END

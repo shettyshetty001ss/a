@@ -1,0 +1,40 @@
+A51 MACRO ASSEMBLER  BCD                                                                  02/21/2025 16:33:37 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.00b
+OBJECT MODULE PLACED IN bcd.OBJ
+ASSEMBLER INVOKED BY: C:\Keil\C51\BIN\A51.EXE bcd.asm SET(SMALL) DEBUG EP
+
+LOC  OBJ            LINE     SOURCE
+
+0000                   1      ORG 0000H
+0000 7A02              2      MOV R2,#02H
+0002 7910              3      MOV R1,#10H
+0004 7400              4      MOV A,#00H
+0006 7B00              5      MOV R3,#00H
+0008 E7                6      MOV A,@R1
+0009 09                7      UP:INC R1
+000A 27                8      ADD A,@R1
+000B D4                9      DA A
+000C 5001             10      JNC down
+000E 0B               11      INC R3
+000F DAF8             12     DOWN:DJNZ R2,UP
+0011 F515             13          MOV 15H,A
+0013 8B16             14              MOV 16H,R3
+                      15              END
+A51 MACRO ASSEMBLER  BCD                                                                  02/21/2025 16:33:37 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+DOWN . . . . . . .  C ADDR   000FH   A   
+UP . . . . . . . .  C ADDR   0009H   A   
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)

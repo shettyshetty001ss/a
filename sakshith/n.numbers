@@ -1,0 +1,6 @@
+sum=0
+n=int(input('enter value of n'))
+for i in range(n):
+  number=int(input('enter number'))
+    sum=sum+number
+ print('sum of n numbers',sum)

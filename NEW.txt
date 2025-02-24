@@ -1,0 +1,21 @@
+<HTML>
+	<HEAD>
+		<TITEL>NRAM Poylitechnic Nitte</TITEL>
+	</HEAD>
+	<BODY BG COLOR=TOMATO>
+	     <H1><CENTER><U>NRAM Politechnic Nitte,574110</U></CENTER></H1>
+		 <P ALIGN JUSTIFIY>Nitte Rukmini Adyanthaya Memoriya Politechnic estabished by the nitte Education trust(NET)Is recognisized 
+		   by the government of karnataka nitte politecnic aggiliated to examination of bengalure</P>
+		  <H2><MARK>AVILABLE COURSES</MARK></H2>
+		  <H3><U><I>TECHNICAL COURSES</I></U></H3>
+		      <B>CIVIL ENGINEERING</B><BR>
+			  <B>MECHNICAL ENGINEERING</B><BR>
+			  <B>COMPUTER SCIENCE AND ENGINEERING</B><BR>
+			  <B>ELECTICAL AND ELECRTONICS ENGINEERING</B><BR>
+			  <B>ELECRTONICS AND COMMINICATION ENGINEERING</B><BR>
+		  <H3><U><I>NON TECHNICAL COURSES</I></U></H3>
+		       <B>FESTION TECHNOLOGY</B><BR>
+			   <B>COMMERCIAL PRATICS</B><BR>
+	</BODY>
+</HTML>
+		 

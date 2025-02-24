@@ -1,0 +1,66 @@
+BL51 BANKED LINKER/LOCATER V6.02                                                        02/14/2025  16:18:57  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V6.02, INVOKED BY:
+C:\KEIL\C51\BIN\BL51.EXE adddir.obj, .\adddir.OBJ, lik.obj TO Rakshith.2
+
+
+INPUT MODULES INCLUDED:
+  adddir.obj (ADDDIR)
+  lik.obj (LIK)
+
+
+LINK MAP OF MODULE:  Rakshith.2 (ADDDIR)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     0006H     ABSOLUTE     
+* OVERLAP * CODE    0000H     000CH     ABSOLUTE     
+
+
+
+SYMBOL TABLE OF MODULE:  Rakshith.2 (ADDDIR)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        ADDDIR
+  C:0000H         LINE#         2
+  C:0002H         LINE#         3
+  C:0004H         LINE#         4
+  -------         ENDMOD        ADDDIR
+
+  -------         MODULE        LIK
+  C:0006H         SYMBOL        BACK
+  C:0000H         LINE#         2
+  C:0002H         LINE#         3
+  C:0004H         LINE#         4
+  C:0006H         LINE#         6
+  C:0007H         LINE#         7
+  C:0008H         LINE#         9
+  C:0009H         LINE#         10
+  C:000AH         LINE#         11
+  -------         ENDMOD        LIK
+
+*** WARNING L7: MODULE NAME NOT UNIQUE
+    MODULE:  .\adddir.OBJ (ADDDIR)
+
+*** WARNING L5: CODE SPACE MEMORY OVERLAP
+    FROM:    0000H
+    TO:      0005H
+
+******************************************************************************
+* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 0012H BYTE ( 0%) *
+******************************************************************************
+
+BL51 BANKED LINKER/LOCATER V6.02                                                      02/14/2025  16:18:57  PAGE 2
+
+
+Program Size: data=8.0 xdata=0 code=18
+LINK/LOCATE RUN COMPLETE.  2 WARNING(S),  0 ERROR(S)

@@ -1,0 +1,40 @@
+A51 MACRO ASSEMBLER  ADD                                                                  02/14/2025 15:32:01 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.00b
+NO OBJECT MODULE REQUESTED
+ASSEMBLER INVOKED BY: C:\Keil\C51\BIN\A51.EXE add.asm SET(SMALL) DEBUG EP
+
+LOC  OBJ            LINE     SOURCE
+
+0000                   1     ORG 0000H
+0000 7820              2     MOV R0,#20h
+0002 7930              3     MOV R1,#30h
+0004 7A05              4     MOV R2,#05h
+                       5     
+0006 E6                6     back:MOV A,@R0
+0007 F7                7     MOV @R1,A
+                       8     
+0008 08                9     INC R0
+0009 09               10     INC R1
+                      11     
+                      12     DJN2 R2, back
+*** _________________________^
+*** ERROR #A9 IN 12 (add.asm, LINE 12): SYNTAX ERROR
+                      13     END
+A51 MACRO ASSEMBLER  ADD                                                                  02/14/2025 15:32:01 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+BACK . . . . . . .  C ADDR   0006H   A   
+DJN2 . . . . . . .    ----   -----       
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 1 ERROR(S)

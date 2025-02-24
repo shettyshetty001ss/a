@@ -1,0 +1,48 @@
+BL51 BANKED LINKER/LOCATER V6.02                                                        02/14/2025  16:25:40  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V6.02, INVOKED BY:
+C:\KEIL\C51\BIN\BL51.EXE addi.obj TO jhyu
+
+
+INPUT MODULES INCLUDED:
+  addi.obj (ADDI)
+
+
+LINK MAP OF MODULE:  jhyu (ADDI)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     000CH     ABSOLUTE     
+
+
+
+SYMBOL TABLE OF MODULE:  jhyu (ADDI)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        ADDI
+  C:0006H         SYMBOL        BACK
+  C:0000H         LINE#         2
+  C:0002H         LINE#         3
+  C:0004H         LINE#         4
+  C:0006H         LINE#         6
+  C:0007H         LINE#         7
+  C:0008H         LINE#         9
+  C:0009H         LINE#         10
+  C:000AH         LINE#         12
+  -------         ENDMOD        ADDI
+
+******************************************************************************
+* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 000CH BYTE ( 0%) *
+******************************************************************************
+
+Program Size: data=8.0 xdata=0 code=12
+LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)

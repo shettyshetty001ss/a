@@ -1,0 +1,52 @@
+BL51 BANKED LINKER/LOCATER V6.02                                                        04/22/2024  22:32:26  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V6.02, INVOKED BY:
+C:\KEIL\C51\BIN\BL51.EXE dptr.obj TO dptr
+
+
+INPUT MODULES INCLUDED:
+  dptr.obj (DPTR)
+
+
+LINK MAP OF MODULE:  dptr (DPTR)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     0011H     ABSOLUTE     
+
+
+
+SYMBOL TABLE OF MODULE:  dptr (DPTR)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        DPTR
+  C:0007H         SYMBOL        UP
+  C:0000H         LINE#         2
+  C:0003H         LINE#         3
+  C:0005H         LINE#         4
+  C:0007H         LINE#         5
+  C:0008H         LINE#         6
+  C:0009H         LINE#         7
+  C:000AH         LINE#         8
+  C:000BH         LINE#         9
+  C:000CH         LINE#         10
+  C:000DH         LINE#         11
+  C:000EH         LINE#         12
+  C:000FH         LINE#         13
+  -------         ENDMOD        DPTR
+
+******************************************************************************
+* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 0011H BYTE ( 0%) *
+******************************************************************************
+
+Program Size: data=8.0 xdata=0 code=17
+LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)

@@ -1,0 +1,31 @@
+A51 MACRO ASSEMBLER  ADDDIR                                                               02/14/2025 15:32:01 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.00b
+OBJECT MODULE PLACED IN adddir.OBJ
+ASSEMBLER INVOKED BY: C:\Keil\C51\BIN\A51.EXE adddir.asm SET(SMALL) DEBUG EP
+
+LOC  OBJ            LINE     SOURCE
+
+0000                   1             ORG 0000H
+0000 E520              2             MOV A,20H
+0002 2530              3             ADD A,30H
+0004 F550              4             MOV 50H,A
+                       5             END
+                             
+                                                                                                                        
+                                                                                   
+A51 MACRO ASSEMBLER  ADDDIR                                                               02/14/2025 15:32:01 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)

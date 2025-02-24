@@ -1,0 +1,36 @@
+A51 MACRO ASSEMBLER  INTERNALRAM                                                          02/19/2025 11:45:27 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.00b
+OBJECT MODULE PLACED IN internalram.OBJ
+ASSEMBLER INVOKED BY: C:\Keil\C51\BIN\A51.EXE internalram.asm SET(SMALL) DEBUG EP
+
+LOC  OBJ            LINE     SOURCE
+
+0000                   1     ORG 0000H
+0000 7820              2     MOV R0,#20H
+0002 7930              3     MOV R1,#30H
+0004 7A05              4     MOV R2,#05H
+                       5     
+0006 E6                6     back:MOV A,@R0
+0007 F7                7     MOV @R1,A
+0008 08                8     INC R0
+0009 09                9     INC R1
+                      10     
+000A DAFA             11     DJNZ R2,BACK
+                      12     END
+A51 MACRO ASSEMBLER  INTERNALRAM                                                          02/19/2025 11:45:27 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+BACK . . . . . . .  C ADDR   0006H   A   
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)

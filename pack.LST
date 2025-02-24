@@ -1,0 +1,32 @@
+A51 MACRO ASSEMBLER  PACK                                                                 04/22/2024 19:44:33 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.00b
+OBJECT MODULE PLACED IN pack.OBJ
+ASSEMBLER INVOKED BY: C:\Keil\C51\BIN\A51.EXE pack.asm SET(SMALL) DEBUG EP
+
+LOC  OBJ            LINE     SOURCE
+
+0000                   1     org 0000h
+0000 E510              2     mov a,10h
+0002 540F              3     anl a,#0fh
+0004 F512              4     mov 12h,a
+0006 E510              5     mov a,10h
+0008 54F0              6     anl a,#0f0h
+000A C4                7     swap a
+000B F513              8     mov 13h,a
+                       9     end
+A51 MACRO ASSEMBLER  PACK                                                                 04/22/2024 19:44:33 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)

@@ -1,0 +1,22 @@
+<html>
+<body>
+<pre>
+<h1>µVision3 Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Student\Documents\aman..uv2
+Project File Date:  02/19/2025
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling apl.asm...
+linking...
+Program Size: data=8.0 xdata=0 code=17
+"aman." - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=8.0 xdata=0 code=17
+"aman." - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=8.0 xdata=0 code=17
+"aman." - 0 Error(s), 0 Warning(s).

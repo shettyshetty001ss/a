@@ -1,0 +1,19 @@
+<html>
+<body>
+<pre>
+<h1>µVision3 Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Student\Documents\aman ec.uv2
+Project File Date:  02/19/2025
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling alp.asm...
+A51 MACRO ASSEMBLER V8.00b - SN: Eval Version
+COPYRIGHT KEIL ELEKTRONIK GmbH 1987 - 2006
+"C:\Keil\C51\BIN\A51.EXE" "alp.asm" SET (SMALL) DEBUG EP
+A51 FATAL ERROR -
+  FILE:       alp.asm
+  ERROR:      FILE DOES NOT EXIST
+A51 TERMINATED.
+Target not created

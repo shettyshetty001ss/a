@@ -1,0 +1,42 @@
+C51 COMPILER V8.05a   RECTANGULER                                                          04/22/2024 22:05:53 PAGE 1   
+
+
+C51 COMPILER V8.05a, COMPILATION OF MODULE RECTANGULER
+OBJECT MODULE PLACED IN rectanguler.OBJ
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE rectanguler.c BROWSE DEBUG OBJECTEXTEND
+
+line level    source
+
+   1          #include<reg51.h>
+   2          void delay(unsigned int);
+   3          void main()
+   4          {
+   5   1      P3=0X00;
+   6   1      while (1)
+   7   1      {
+   8   2       delay(250);
+   9   2       P3=0XFF;
+  10   2       delay(1000);
+  11   2       P3=0X00;
+  12   2       }
+  13   1       }
+  14           void delay(unsigned int a)
+  15           {
+  16   1       unsigned int i,j;
+  17   1       for(i=0;i<a;i++);
+  18   1       for(j=0;j<10000;j++);
+  19   1       }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     57    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

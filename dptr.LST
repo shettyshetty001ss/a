@@ -1,0 +1,38 @@
+A51 MACRO ASSEMBLER  DPTR                                                                 04/22/2024 22:32:26 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.00b
+OBJECT MODULE PLACED IN dptr.OBJ
+ASSEMBLER INVOKED BY: C:\Keil\C51\BIN\A51.EXE dptr.asm SET(SMALL) DEBUG EP
+
+LOC  OBJ            LINE     SOURCE
+
+0000                   1      org 0000h
+0000 908000            2     MOV DPTR,#8000H
+0003 7840              3     MOV R0,#40H
+0005 7905              4     MOV R1,#05H
+0007 E6                5     UP:MOV A,@R0
+0008 FA                6     MOV R2,A
+0009 E0                7     MOVX A,@DPTR
+000A F6                8     MOV @R0,A
+000B CA                9     XCH A,R2
+000C F0               10     MOVX @DPTR,A
+000D 08               11     INC R0
+000E A3               12     INC DPTR
+000F D9F6             13     DJNZ R1,UP
+                      14     END
+A51 MACRO ASSEMBLER  DPTR                                                                 04/22/2024 22:32:26 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+UP . . . . . . . .  C ADDR   0007H   A   
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)
